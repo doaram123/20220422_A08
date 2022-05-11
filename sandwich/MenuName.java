@@ -7,55 +7,55 @@ import java.util.List;
 public class MenuName {
 	
 //	public void sandwichMenu() {
-//		System.out.println("<»÷µåÀ§Ä¡ ¸Ş´º>");
-//		System.out.println("1.º£Áö ¾Æº¸Ä«µµ");
-//		System.out.println("2.·Î½ºÆ® Ä¡Å² ¾Æº¸Ä«µµ");
-//		System.out.println("3.ÅÍÅ° º£ÀÌÄÁ ¾Æº¸Ä«µµ");
-//		System.out.println("4.·ÎÆ¼¼¼¸® ¹ÙºñÅ¥ Ä¡Å²");
-//		System.out.println("5.½ºÅ×ÀÌÅ©&Ä¡Áî");
-//		System.out.println("6.K-¹ÙºñÅ¥");
-//		System.out.println("7.Æúµå Æ÷Å© ¹ÙºñÅ¥");
-//		System.out.println("8.½áºê¿şÀÌ Å¬·´");
-//		System.out.println("9.½¬¸²ÇÁ");
-//		System.out.println("10.½ºÆÄÀÌ½º ÀÌÅ»¸®¾È");
-//		System.out.println("11.Ä¡Å² µ¥¸®¾ß³¢");
-//		System.out.println("12.ºñ¿¤Æ¼");
-//		System.out.println("13.ÀÌÅ»¸®¾Èºñ¿¥Æ¼");
-//		System.out.println("14.¹ÌÆ®º¼");
-//		System.out.println("15.ÅÍÅ°");
-//		System.out.println("16.ÂüÄ¡");
-//		System.out.println("17.¿¡±×¸¶¿ä");
-//		System.out.println("18.º£Áö");
+//		System.out.println("<ìƒŒë“œìœ„ì¹˜ ë©”ë‰´>");
+//		System.out.println("1.ë² ì§€ ì•„ë³´ì¹´ë„");
+//		System.out.println("2.ë¡œìŠ¤íŠ¸ ì¹˜í‚¨ ì•„ë³´ì¹´ë„");
+//		System.out.println("3.í„°í‚¤ ë² ì´ì»¨ ì•„ë³´ì¹´ë„");
+//		System.out.println("4.ë¡œí‹°ì„¸ë¦¬ ë°”ë¹„í ì¹˜í‚¨");
+//		System.out.println("5.ìŠ¤í…Œì´í¬&ì¹˜ì¦ˆ");
+//		System.out.println("6.K-ë°”ë¹„í");
+//		System.out.println("7.í´ë“œ í¬í¬ ë°”ë¹„í");
+//		System.out.println("8.ì¨ë¸Œì›¨ì´ í´ëŸ½");
+//		System.out.println("9.ì‰¬ë¦¼í”„");
+//		System.out.println("10.ìŠ¤íŒŒì´ìŠ¤ ì´íƒˆë¦¬ì•ˆ");
+//		System.out.println("11.ì¹˜í‚¨ ë°ë¦¬ì•¼ë¼");
+//		System.out.println("12.ë¹„ì—˜í‹°");
+//		System.out.println("13.ì´íƒˆë¦¬ì•ˆë¹„ì— í‹°");
+//		System.out.println("14.ë¯¸íŠ¸ë³¼");
+//		System.out.println("15.í„°í‚¤");
+//		System.out.println("16.ì°¸ì¹˜");
+//		System.out.println("17.ì—ê·¸ë§ˆìš”");
+//		System.out.println("18.ë² ì§€");
 //	}
 	
 	static void sandwichMenu(String na, int pr1, int pr2) {
-		System.out.println(na+" - 15cm: "+pr1+"¿ø 30cm: "+pr2+"¿ø");
+		System.out.println(na+" - 15cm: "+pr1+"ì› 30cm: "+pr2+"ì›");
 	}
 	
 		
-//	public List<String> sandList=new ArrayList<>(Arrays.asList("1.º£Áö ¾Æº¸Ä«µµ","2.·Î½ºÆ® Ä¡Å² ¾Æº¸Ä«µµ","3.ÅÍÅ° º£ÀÌÄÁ ¾Æº¸Ä«µµ","4.·ÎÆ¼¼¼¸® ¹ÙºñÅ¥ Ä¡Å²",
-//			"5.½ºÅ×ÀÌÅ©&Ä¡Áî","6.K-¹ÙºñÅ¥","7.Æúµå Æ÷Å© ¹ÙºñÅ¥","8.½áºê¿şÀÌ Å¬·´","9.½¬¸²ÇÁ","10.½ºÆÄÀÌ½º ÀÌÅ»¸®¾È","11.Ä¡Å² µ¥¸®¾ß³¢","12.ºñ¿¤Æ¼","13.ÀÌÅ»¸®¾Èºñ¿¥Æ¼",
-//			"14.¹ÌÆ®º¼","15.ÅÍÅ°","16.ÂüÄ¡","17.¿¡±×¸¶¿ä","18.º£Áö"));
+//	public List<String> sandList=new ArrayList<>(Arrays.asList("1.ë² ì§€ ì•„ë³´ì¹´ë„","2.ë¡œìŠ¤íŠ¸ ì¹˜í‚¨ ì•„ë³´ì¹´ë„","3.í„°í‚¤ ë² ì´ì»¨ ì•„ë³´ì¹´ë„","4.ë¡œí‹°ì„¸ë¦¬ ë°”ë¹„í ì¹˜í‚¨",
+//			"5.ìŠ¤í…Œì´í¬&ì¹˜ì¦ˆ","6.K-ë°”ë¹„í","7.í´ë“œ í¬í¬ ë°”ë¹„í","8.ì¨ë¸Œì›¨ì´ í´ëŸ½","9.ì‰¬ë¦¼í”„","10.ìŠ¤íŒŒì´ìŠ¤ ì´íƒˆë¦¬ì•ˆ","11.ì¹˜í‚¨ ë°ë¦¬ì•¼ë¼","12.ë¹„ì—˜í‹°","13.ì´íƒˆë¦¬ì•ˆë¹„ì— í‹°",
+//			"14.ë¯¸íŠ¸ë³¼","15.í„°í‚¤","16.ì°¸ì¹˜","17.ì—ê·¸ë§ˆìš”","18.ë² ì§€"));
 //	String result="";
 	
 //	public void sandName() {
-//		sandList.add("1.º£Áö ¾Æº¸Ä«µµ");
-//		sandList.add("2.·Î½ºÆ® Ä¡Å² ¾Æº¸Ä«µµ");
-//		sandList.add("3.ÅÍÅ° º£ÀÌÄÁ ¾Æº¸Ä«µµ");
-//		sandList.add("4.·ÎÆ¼¼¼¸® ¹ÙºñÅ¥ Ä¡Å²");
-//		sandList.add("5.½ºÅ×ÀÌÅ©&Ä¡Áî");
-//		sandList.add("6.K-¹ÙºñÅ¥");
-//		sandList.add("7.Æúµå Æ÷Å© ¹ÙºñÅ¥");
-//		sandList.add("8.½áºê¿şÀÌ Å¬·´");
-//		sandList.add("9.½¬¸²ÇÁ");
-//		sandList.add("10.½ºÆÄÀÌ½º ÀÌÅ»¸®¾È");
-//		sandList.add("11.Ä¡Å² µ¥¸®¾ß³¢");
-//		sandList.add("12.ºñ¿¤Æ¼");
-//		sandList.add("13.ÀÌÅ»¸®¾Èºñ¿¥Æ¼");
-//		sandList.add("14.¹ÌÆ®º¼");
-//		sandList.add("15.ÅÍÅ°");
-//		sandList.add("16.ÂüÄ¡");
-//		sandList.add("17.¿¡±×¸¶¿ä");
-//		sandList.add("18.º£Áö");
+//		sandList.add("1.ë² ì§€ ì•„ë³´ì¹´ë„");
+//		sandList.add("2.ë¡œìŠ¤íŠ¸ ì¹˜í‚¨ ì•„ë³´ì¹´ë„");
+//		sandList.add("3.í„°í‚¤ ë² ì´ì»¨ ì•„ë³´ì¹´ë„");
+//		sandList.add("4.ë¡œí‹°ì„¸ë¦¬ ë°”ë¹„í ì¹˜í‚¨");
+//		sandList.add("5.ìŠ¤í…Œì´í¬&ì¹˜ì¦ˆ");
+//		sandList.add("6.K-ë°”ë¹„í");
+//		sandList.add("7.í´ë“œ í¬í¬ ë°”ë¹„í");
+//		sandList.add("8.ì¨ë¸Œì›¨ì´ í´ëŸ½");
+//		sandList.add("9.ì‰¬ë¦¼í”„");
+//		sandList.add("10.ìŠ¤íŒŒì´ìŠ¤ ì´íƒˆë¦¬ì•ˆ");
+//		sandList.add("11.ì¹˜í‚¨ ë°ë¦¬ì•¼ë¼");
+//		sandList.add("12.ë¹„ì—˜í‹°");
+//		sandList.add("13.ì´íƒˆë¦¬ì•ˆë¹„ì— í‹°");
+//		sandList.add("14.ë¯¸íŠ¸ë³¼");
+//		sandList.add("15.í„°í‚¤");
+//		sandList.add("16.ì°¸ì¹˜");
+//		sandList.add("17.ì—ê·¸ë§ˆìš”");
+//		sandList.add("18.ë² ì§€");
 //	}
 }

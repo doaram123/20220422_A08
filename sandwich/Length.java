@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Length {
 //	public static void length() {
-//		System.out.println("»§ ±æÀÌ ¼±ÅÃÇØÁÖ¼¼¿ä.");
+//		System.out.println(("ë¹µ ê¸¸ì´ ì„ íƒí•´ì£¼ì„¸ìš”.");
 //		System.out.println("1. 15cm");
 //		System.out.println("2. 30cm");
 //		
 //		System.out.println();
 //		
-//		System.out.print("»§ ±æÀÌ ¼±ÅÃ : ");
+//		System.out.print("ë¹µ ê¸¸ì´ ì„ íƒ : ");
 //		Scanner sc=new Scanner(System.in);
 //		int num1=sc.nextInt();
 //		

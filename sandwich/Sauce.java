@@ -6,18 +6,18 @@ public class Sauce {
 	public static void sauce(String sa) {
 		System.out.println(sa);
 		
-//		System.out.println("¼Ò½º/½ÃÁî´×À» ¼±ÅÃÇÏ¿© ÁÖ¼¼¿ä.");
-//		String[] sauce= {"1.¾Ë½ÎÇÑ ¸Ó½ºÅ¸µå", "2.»óÅ­ÇÑ ÀÌÅ»¸®¾Èµå·¹½Ì", "3.°úÀÏÇâ ·¹µå¿ÍÀÎ ½ÄÃÊ", "4.´ÞÄÞÇÑ ½ºÀ§Æ® ¾î´Ï¾ð",
-//						"5.»õÄÞ´ÞÄÞÇÑ Çã´Ï ¸Ó½ºÅ¸µå", "6.¸ÅÄÞ´ÞÄÞÇÑ ½ºÀ§Æ® Ä¥¸®", "7.½º¸ðÅ© Çâ ½º¸ðÅ© ¹ÙºñÅ¥", "8.Å©¸®¹ÌÇÑ ·»Ä¡",
-//						"9.°í¼ÒÇÑ ¸¶¿ä³×Áî", "10.È­²öÇÏ°Ô ¸Å¿î ÇÖ Ä¥¸®", "11.ÀÌ±¹ÀûÀ¸·Î ¸ÅÄÞÇÑ »ç¿ì½º ¿þ½ºÆ® Ä¡Æú·¹", "12.¾Ë½ÎÇÑ È¦½º·¡µð½¬",
-//						"13.ÀÌÅÂ¸® ¿¢½ºÆ®¶ó¹öÁø ¿Ã¸®ºê ¿ÀÀÏ", "14.¼Ò±Ý", "15.ÈÄÃß", "16.¼±ÅÃ¾ÈÇÔ"};
+//		System.out.println("ì†ŒìŠ¤/ì‹œì¦ˆë‹ì„ ì„ íƒí•˜ì—¬ ì£¼ì„¸ìš”.");
+//		String[] sauce= {"1.ì•Œì‹¸í•œ ë¨¸ìŠ¤íƒ€ë“œ", "2.ìƒí¼í•œ ì´íƒˆë¦¬ì•ˆë“œë ˆì‹±", "3.ê³¼ì¼í–¥ ë ˆë“œì™€ì¸ ì‹ì´ˆ", "4.ë‹¬ì½¤í•œ ìŠ¤ìœ„íŠ¸ ì–´ë‹ˆì–¸",
+//						"5.ìƒˆì½¤ë‹¬ì½¤í•œ í—ˆë‹ˆ ë¨¸ìŠ¤íƒ€ë“œ", "6.ë§¤ì½¤ë‹¬ì½¤í•œ ìŠ¤ìœ„íŠ¸ ì¹ ë¦¬", "7.ìŠ¤ëª¨í¬ í–¥ ìŠ¤ëª¨í¬ ë°”ë¹„í", "8.í¬ë¦¬ë¯¸í•œ ë Œì¹˜",
+//						"9.ê³ ì†Œí•œ ë§ˆìš”ë„¤ì¦ˆ", "10.í™”ëˆí•˜ê²Œ ë§¤ìš´ í•« ì¹ ë¦¬", "11.ì´êµ­ì ìœ¼ë¡œ ë§¤ì½¤í•œ ì‚¬ìš°ìŠ¤ ì›¨ìŠ¤íŠ¸ ì¹˜í´ë ˆ", "12.ì•Œì‹¸í•œ í™€ìŠ¤ëž˜ë””ì‰¬",
+//						"13.ì´íƒœë¦¬ ì—‘ìŠ¤íŠ¸ë¼ë²„ì§„ ì˜¬ë¦¬ë¸Œ ì˜¤ì¼", "14.ì†Œê¸ˆ", "15.í›„ì¶”", "16.ì„ íƒì•ˆí•¨"};
 //		
 //		for(int i=0;i<sauce.length;i++) {
 //			System.out.println(sauce[i]);
 //		}
 //		
 //		System.out.println();
-//		System.out.print("¼Ò½º/½ÃÁî´× ¼±ÅÃ : ");
+//		System.out.print("ì†ŒìŠ¤/ì‹œì¦ˆë‹ ì„ íƒ : ");
 //		
 //		Scanner sc=new Scanner(System.in);
 //		int num1=sc.nextInt();

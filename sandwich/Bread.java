@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Bread {
 //	public static void bread() {
-//		System.out.println("»§ Á¾·ù¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä");
+//		System.out.println("ë¹µ ì¢…ë¥˜ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”");
 //		
-//		String[] br= {"1.È­ÀÌÆ®", "2.ÆÄ¸¶»ê ¿À·¹°¡³ë", "3.À§Æ®", "4.Çã´Ï¿ÀÆ®", "5.ÇÏÆ¼", "6.ÇÃ·§ºê·¹µå"};
+//		String[] br= {"1.í™”ì´íŠ¸", "2.íŒŒë§ˆì‚° ì˜¤ë ˆê°€ë…¸", "3.ìœ„íŠ¸", "4.í—ˆë‹ˆì˜¤íŠ¸", "5.í•˜í‹°", "6.í”Œë«ë¸Œë ˆë“œ"};
 //		
 //		for(int i=0;i<br.length;i++) {
 //			System.out.println(br[i]);
 //		}
 //		
 //		System.out.println();
-//		System.out.print("»§ ¼±ÅÃ : ");
+//		System.out.print("ë¹µ ì„ íƒ : ");
 //		Scanner sc=new Scanner(System.in);
 //		int num1=sc.nextInt();
 //	}

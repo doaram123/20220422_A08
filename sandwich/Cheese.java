@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Cheese {
 	public static void selectCh(String ch) {
 		System.out.println(ch);
-//		String[] ch = {"1.¾Æ¸Ş¸®Ä­Ä¡Áî", "2.½´·¹µåÄ¡Áî", "3.¸ğÂ÷·¼¶óÄ¡Áî", "4.Ä¡Áî Á¦¿Ü"};
+//		String[] ch = {"1.ì•„ë©”ë¦¬ì¹¸ì¹˜ì¦ˆ", "2.ìŠˆë ˆë“œì¹˜ì¦ˆ", "3.ëª¨ì°¨ë ë¼ì¹˜ì¦ˆ", "4.ì¹˜ì¦ˆ ì œì™¸"};
 //		
-//		System.out.println("Ä¡Áî¸¦ ¼±ÅÃÇÏ¼¼¿ä.");
+//		System.out.println(("ì¹˜ì¦ˆë¥¼ ì„ íƒí•˜ì„¸ìš”.");
 //		
 //		for(int i=0;i<ch.length;i++) {
 //			System.out.println(ch[i]);
 //		}
 //		
 //		System.out.println();
-//		System.out.print("Ä¡Áî ¼±ÅÃ : ");
+//		System.out.print("ì¹˜ì¦ˆ ì„ íƒ : ");
 //		Scanner sc=new Scanner(System.in);
 //		int num1=sc.nextInt();
 		

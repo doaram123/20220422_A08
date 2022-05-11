@@ -7,194 +7,194 @@ public class SandwichOrder {
 
 	public static void main(String[] args) {
 		
-		//»÷µåÀ§Ä¡ ¸Ş´º ¼±ÅÃ
-		System.out.println("<»÷µåÀ§Ä¡ ¸Ş´º>");
+		//ìƒŒë“œìœ„ì¹˜ ë©”ë‰´ ì„ íƒ
+		System.out.println("<ìƒŒë“œìœ„ì¹˜ ë©”ë‰´>");
 		
 //		MenuName mn=new MenuName();
 //		mn.sandwichMenu();
 		
 		MenuName mn=new MenuName();
-		mn.sandwichMenu("1.º£Áö ¾Æº¸Ä«µµ", 4100, 7600);
-		mn.sandwichMenu("2.·Î½ºÆ® Ä¡Å² ¾Æº¸Ä«µµ", 6400, 11600);
-		mn.sandwichMenu("3.ÅÍÅ° º£ÀÌÄÁ ¾Æº¸Ä«µµ", 6900, 12200);
-		mn.sandwichMenu("4.·ÎÆ¼¼¼¸® ¹ÙºñÅ¥ Ä¡Å²", 6400, 11600);
-		mn.sandwichMenu("5.½ºÅ×ÀÌÅ©&Ä¡Áî", 6900, 12200);
-		mn.sandwichMenu("6.K-¹ÙºñÅ¥", 6400, 11600);
-		mn.sandwichMenu("7.Æúµå Æ÷Å© ¹ÙºñÅ¥", 6300, 11400);
-		mn.sandwichMenu("8.½áºê¿şÀÌ Å¬·´", 6200, 11200);
-		mn.sandwichMenu("9.½¬¸²ÇÁ", 6200, 11200);
-		mn.sandwichMenu("10.½ºÆÄÀÌ½º ÀÌÅ»¸®¾È", 6000, 11000);
-		mn.sandwichMenu("11.Ä¡Å² µ¥¸®¾ß³¢", 6000, 11000);
-		mn.sandwichMenu("12.ºñ¿¤Æ¼", 5700, 10400);
-		mn.sandwichMenu("13.ÀÌÅ»¸®¾Èºñ¿¥Æ¼", 5700, 10400);
-		mn.sandwichMenu("14.¹ÌÆ®º¼", 5600, 10300);
-		mn.sandwichMenu("15.ÅÍÅ°", 5600, 10300);
-		mn.sandwichMenu("16.ÂüÄ¡", 4900, 9400);
-		mn.sandwichMenu("17.¿¡±×¸¶¿ä", 4600, 8500);
-		mn.sandwichMenu("18.º£Áö", 4100, 7600);
+		mn.sandwichMenu("1.ë² ì§€ ì•„ë³´ì¹´ë„", 4100, 7600);
+		mn.sandwichMenu("2.ë¡œìŠ¤íŠ¸ ì¹˜í‚¨ ì•„ë³´ì¹´ë„", 6400, 11600);
+		mn.sandwichMenu("3.í„°í‚¤ ë² ì´ì»¨ ì•„ë³´ì¹´ë„", 6900, 12200);
+		mn.sandwichMenu("4.ë¡œí‹°ì„¸ë¦¬ ë°”ë¹„í ì¹˜í‚¨", 6400, 11600);
+		mn.sandwichMenu("5.ìŠ¤í…Œì´í¬&ì¹˜ì¦ˆ", 6900, 12200);
+		mn.sandwichMenu("6.K-ë°”ë¹„í", 6400, 11600);
+		mn.sandwichMenu("7.í´ë“œ í¬í¬ ë°”ë¹„í", 6300, 11400);
+		mn.sandwichMenu("8.ì¨ë¸Œì›¨ì´ í´ëŸ½", 6200, 11200);
+		mn.sandwichMenu("9.ì‰¬ë¦¼í”„", 6200, 11200);
+		mn.sandwichMenu("10.ìŠ¤íŒŒì´ìŠ¤ ì´íƒˆë¦¬ì•ˆ", 6000, 11000);
+		mn.sandwichMenu("11.ì¹˜í‚¨ ë°ë¦¬ì•¼ë¼", 6000, 11000);
+		mn.sandwichMenu("12.ë¹„ì—˜í‹°", 5700, 10400);
+		mn.sandwichMenu("13.ì´íƒˆë¦¬ì•ˆë¹„ì— í‹°", 5700, 10400);
+		mn.sandwichMenu("14.ë¯¸íŠ¸ë³¼", 5600, 10300);
+		mn.sandwichMenu("15.í„°í‚¤", 5600, 10300);
+		mn.sandwichMenu("16.ì°¸ì¹˜", 4900, 9400);
+		mn.sandwichMenu("17.ì—ê·¸ë§ˆìš”", 4600, 8500);
+		mn.sandwichMenu("18.ë² ì§€", 4100, 7600);
 		
 		for(; ;) {
-			System.out.print("\n¸Ş´º¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä. ");
+			System.out.print("\në©”ë‰´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”. ");
 			Scanner sc=new Scanner(System.in);
-			int num1=sc.nextInt();
+			int sandNum=sc.nextInt();
 			
-			if(num1>18) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+			if(sandNum>18) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				continue;
 			}else { break; }
 		}
 		
-		//»§ ±æÀÌ ¼±ÅÃ
+		//ë¹µ ê¸¸ì´ ì„ íƒ
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("»§ ±æÀÌ¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä.\n");
+		System.out.println("ë¹µ ê¸¸ì´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”.\n");
 		Length len=new Length();
 		len.selectLen(15, 30);
 		
 		for(; ;) {
-			System.out.print("\n»§ ±æÀÌ ¼±ÅÃ : ");
+			System.out.print("\në¹µ ê¸¸ì´ ì„ íƒ : ");
 			Scanner sc=new Scanner(System.in);
-			int num2=sc.nextInt();
+			int lenNum=sc.nextInt();
 			
-			if(num2>2) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+			if(lenNum>2) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				continue;
 			}else { break; }
 		}
 		
-		//»§ Á¾·ù ¼±ÅÃ
+		//ë¹µ ì¢…ë¥˜ ì„ íƒ
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("»§À» ¼±ÅÃÇØÁÖ¼¼¿ä.\n");
+		System.out.println("ë¹µì„ ì„ íƒí•´ì£¼ì„¸ìš”.\n");
 		Bread br=new Bread();
-		br.breadName("1.È­ÀÌÆ®");
-		br.breadName("2.ÆÄ¸¶»ê ¿À·¹°¡³ë");
-		br.breadName("3.À§Æ®");
-		br.breadName("4.Çã´Ï¿ÀÆ®");
-		br.breadName("5.ÇÏÆ¼");
-		br.breadName("6.ÇÃ·§ºê·¹µå");
+		br.breadName("1.í™”ì´íŠ¸");
+		br.breadName("2.íŒŒë§ˆì‚° ì˜¤ë ˆê°€ë…¸");
+		br.breadName("3.ìœ„íŠ¸");
+		br.breadName("4.í—ˆë‹ˆì˜¤íŠ¸");
+		br.breadName("5.í•˜í‹°");
+		br.breadName("6.í”Œë«ë¸Œë ˆë“œ");
 		
 		for(; ;) {
-			System.out.print("\n»§ Á¾·ù ¼±ÅÃ : ");
+			System.out.print("\në¹µ ì¢…ë¥˜ ì„ íƒ : ");
 			Scanner sc=new Scanner(System.in);
-			int num3=sc.nextInt();
+			int breadNum=sc.nextInt();
 			
-			if(num3>6) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+			if(breadNum>6) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				continue;
 			}else{ break; }
 		}
 		
-		//Åä½ºÆÃ ¿©ºÎ È®ÀÎ
+		//í† ìŠ¤íŒ… ì—¬ë¶€ í™•ì¸
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("Åä½ºÆÃ ÇÏ½Ã°Ú½À´Ï±î?\n");
-		System.out.print("1.Åä½ºÆÃ ÇÑ´Ù  ");
-		System.out.println("2.Åä½ºÆÃ ¾È ÇÑ´Ù");
+		System.out.println("í† ìŠ¤íŒ… í•˜ì‹œê² ìŠµë‹ˆê¹Œ?\n");
+		System.out.print("1.í† ìŠ¤íŒ… í•œë‹¤  ");
+		System.out.println("2.í† ìŠ¤íŒ… ì•ˆ í•œë‹¤");
 		for(; ;) {
-			System.out.print("\nÅä½ºÆÃ ¼±ÅÃ : ");
+			System.out.print("\ní† ìŠ¤íŒ… ì„ íƒ : ");
 			Scanner sc=new Scanner(System.in);
-			int num4=sc.nextInt();
+			int toastNum=sc.nextInt();
 			
-			if(num4>2) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+			if(toastNum>2) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				continue;
 			}else { break; }
 		}
 		
 		
-		//Ä¡Áî ¼±ÅÃ
+		//ì¹˜ì¦ˆ ì„ íƒ
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("Ä¡Áî¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä.\n");
+		System.out.println("ì¹˜ì¦ˆë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”.\n");
 		Cheese ch=new Cheese();
-		ch.selectCh("1.¾Æ¸Ş¸®Ä­Ä¡Áî");
-		ch.selectCh("2.½´·¹µåÄ¡Áî");
-		ch.selectCh("3.¸ğÂ÷·¼¶óÄ¡Áî");
-		ch.selectCh("4.Ä¡ÁîÁ¦¿Ü");
+		ch.selectCh("1.ì•„ë©”ë¦¬ì¹¸ì¹˜ì¦ˆ");
+		ch.selectCh("2.ìŠˆë ˆë“œì¹˜ì¦ˆ");
+		ch.selectCh("3.ëª¨ì°¨ë ë¼ì¹˜ì¦ˆ");
+		ch.selectCh("4.ì¹˜ì¦ˆì œì™¸");
 		
 		for(; ;) {
-			System.out.print("\nÄ¡Áî Á¾·ù ¼±ÅÃ : ");
+			System.out.print("\nì¹˜ì¦ˆ ì¢…ë¥˜ ì„ íƒ : ");
 			Scanner sc=new Scanner(System.in);
-			int num5=sc.nextInt();
+			int chNum=sc.nextInt();
 			
-			if(num5>4) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+			if(chNum>4) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				continue;
 			}else { break; }
 		}
 		
-		//¾ßÃ¤ ¼±ÅÃ
+		//ì•¼ì±„ ì„ íƒ
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("¿øÇÏ´Â ¾ßÃ¤¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä\n");
+		System.out.println("ì›í•˜ëŠ” ì•¼ì±„ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”\n");
 		Vegetable ve=new Vegetable();
-		System.out.print("<»ı¾ßÃ¤> ");
-		ve.vegetable("1.¾ç»óÃß ");
-		ve.vegetable("2.Åä¸¶Åä ");
-		ve.vegetable("3.¿ÀÀÌ ");
-		ve.vegetable("4.ÇÇ¸Á ");
-		ve.vegetable("5.¾çÆÄ\n");
-		System.out.print("<ÀıÀÓ·ù> ");
-		ve.vegetable("6.ÇÇÅ¬ ");
-		ve.vegetable("7.¿Ã¸®ºê ");
-		ve.vegetable("8.ÇÒ¶óÇÇ´¢\n");
-		System.out.print("<¼±ÅÃ¾ÈÇÔ> ");
-		ve.vegetable("9.¸ğµç ¾ßÃ¤ Á¦¿Ü\n");
-		ve.vegetable("10.¼±ÅÃ¿Ï·á\n");
+		System.out.print("<ìƒì•¼ì±„> ");
+		ve.vegetable("1.ì–‘ìƒì¶” ");
+		ve.vegetable("2.í† ë§ˆí†  ");
+		ve.vegetable("3.ì˜¤ì´ ");
+		ve.vegetable("4.í”¼ë§ ");
+		ve.vegetable("5.ì–‘íŒŒ\n");
+		System.out.print("<ì ˆì„ë¥˜> ");
+		ve.vegetable("6.í”¼í´ ");
+		ve.vegetable("7.ì˜¬ë¦¬ë¸Œ ");
+		ve.vegetable("8.í• ë¼í”¼ë‡¨\n");
+		System.out.print("<ì„ íƒì•ˆí•¨> ");
+		ve.vegetable("9.ëª¨ë“  ì•¼ì±„ ì œì™¸\n");
+		ve.vegetable("10.ì„ íƒì™„ë£Œ\n");
 		
 		System.out.println();
 		Scanner sc=new Scanner(System.in);
 		int count = 1;
 		while(count<=9) {
-			System.out.print("¾ßÃ¤ ¼±ÅÃ "+count+" : ");
-			int num6=sc.nextInt();
-			if(num6==9 || num6==10) {
+			System.out.print("ì•¼ì±„ ì„ íƒ "+count+" : ");
+			int vegetNum=sc.nextInt();
+			if(vegetNum==9 || vegetNum==10) {
 				break;
 			}
-			else if(num6>10) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.\n");
+			else if(vegetNum>10) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.\n");
 				continue;
 			}
 			else { count++; }
 			System.out.println();
 		}
 		
-		//¼Ò½º&½ÃÁî´× ¼±ÅÃ
+		//ì†ŒìŠ¤&ì‹œì¦ˆë‹ ì„ íƒ
 		System.out.println("\n--------------------------------------\n");
-		System.out.println("¼Ò½º/½ÃÁî´×À» ¼±ÅÃÇØÁÖ¼¼¿ä.(3°³±îÁö ¼±ÅÃ °¡´É)\n");
+		System.out.println("ì†ŒìŠ¤/ì‹œì¦ˆë‹ì„ ì„ íƒí•´ì£¼ì„¸ìš”.(3ê°œê¹Œì§€ ì„ íƒ ê°€ëŠ¥)\n");
 		Sauce sa=new Sauce();
-		sa.sauce("1.¾Ë½ÎÇÑ ¸Ó½ºÅ¸µå");
-		sa.sauce("2.»óÅ­ÇÑ ÀÌÅ»¸®¾Èµå·¹½Ì");
-		sa.sauce("3.°úÀÏÇâ ·¹µå¿ÍÀÎ½ÄÃÊ");
-		sa.sauce("4.´ŞÄŞÇÑ ½ºÀ§Æ® ¾î´Ï¾ğ");
-		sa.sauce("5.»õÄŞ´ŞÄŞÇÑ Çã´Ï ¸Ó½ºÅ¸µå");
-		sa.sauce("6. ¸ÅÄŞ´ŞÄŞÇÑ ½ºÀ§Ã÷ Ä¥¸®");
-		sa.sauce("7.½º¸ğÅ© Çâ ½º¸ğÅ© ¹ÙºñÅ¥");
-		sa.sauce("8.Å©¸®¹ÌÇÑ ·£Ä¡");
-		sa.sauce("9.°í¼ÒÇÑ ¸¶¿ä³×Áî");
-		sa.sauce("10.È­²öÇÏ°Ô ¸Å¿î ÇÖ Ä¥¸®");
-		sa.sauce("11.ÀÌ±¹ÀûÀ¸·Î ¸ÅÄŞÇÑ »ç¿ì½º ¿ş½ºÆ® Ä¡Æú·¹");
-		sa.sauce("12.¾Ë½ÎÇÑ È¦½º·¡µğ½¬");
-		sa.sauce("13.ÀÌÅÂ¸® ¿¢½ºÆ®¶ó¹öÁø ¿Ã¸®ºê ¿ÀÀÏ");
-		sa.sauce("14.¼Ò±İ");
-		sa.sauce("15.ÈÄÃß");
-		sa.sauce("16.¼±ÅÃ¾ÈÇÔ");
-		sa.sauce("17.¼±ÅÃ¿Ï·á");
+		sa.sauce("1.ì•Œì‹¸í•œ ë¨¸ìŠ¤íƒ€ë“œ");
+		sa.sauce("2.ìƒí¼í•œ ì´íƒˆë¦¬ì•ˆë“œë ˆì‹±");
+		sa.sauce("3.ê³¼ì¼í–¥ ë ˆë“œì™€ì¸ì‹ì´ˆ");
+		sa.sauce("4.ë‹¬ì½¤í•œ ìŠ¤ìœ„íŠ¸ ì–´ë‹ˆì–¸");
+		sa.sauce("5.ìƒˆì½¤ë‹¬ì½¤í•œ í—ˆë‹ˆ ë¨¸ìŠ¤íƒ€ë“œ");
+		sa.sauce("6. ë§¤ì½¤ë‹¬ì½¤í•œ ìŠ¤ìœ„ì¸  ì¹ ë¦¬");
+		sa.sauce("7.ìŠ¤ëª¨í¬ í–¥ ìŠ¤ëª¨í¬ ë°”ë¹„í");
+		sa.sauce("8.í¬ë¦¬ë¯¸í•œ ëœì¹˜");
+		sa.sauce("9.ê³ ì†Œí•œ ë§ˆìš”ë„¤ì¦ˆ");
+		sa.sauce("10.í™”ëˆí•˜ê²Œ ë§¤ìš´ í•« ì¹ ë¦¬");
+		sa.sauce("11.ì´êµ­ì ìœ¼ë¡œ ë§¤ì½¤í•œ ì‚¬ìš°ìŠ¤ ì›¨ìŠ¤íŠ¸ ì¹˜í´ë ˆ");
+		sa.sauce("12.ì•Œì‹¸í•œ í™€ìŠ¤ë˜ë””ì‰¬");
+		sa.sauce("13.ì´íƒœë¦¬ ì—‘ìŠ¤íŠ¸ë¼ë²„ì§„ ì˜¬ë¦¬ë¸Œ ì˜¤ì¼");
+		sa.sauce("14.ì†Œê¸ˆ");
+		sa.sauce("15.í›„ì¶”");
+		sa.sauce("16.ì„ íƒì•ˆí•¨");
+		sa.sauce("17.ì„ íƒì™„ë£Œ");
 		
 		System.out.println();
 		Scanner scan=new Scanner(System.in);
 		int count2 = 1;
 		while(count2<=3) {
-			System.out.print("¼Ò½º/½ÃÁî´× ¼±ÅÃ "+count2+" : ");
-			int num7=scan.nextInt();
-			if(num7==16 || num7==17) {
+			System.out.print("ì†ŒìŠ¤/ì‹œì¦ˆë‹ ì„ íƒ "+count2+" : ");
+			int sauceNum=scan.nextInt();
+			if(sauceNum==16 || sauceNum==17) {
 				break;
 			}
-			else if(num7>17) {
-				System.out.println("\n´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.\n");
+			else if(sauceNum>17) {
+				System.out.println("\në‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.\n");
 				continue;
 			}
 			else { count2++; }
 			System.out.println();
 		}
 		
-		System.out.println("\nÁÖ¹®ÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("\nì£¼ë¬¸ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		
 		
 	}

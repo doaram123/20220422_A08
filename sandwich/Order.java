@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Order {
 	public static void main(String[] args) {
-		//»÷µåÀ§Ä¡ ¸Þ´º ¼±ÅÃ
-		System.out.println("<»÷µåÀ§Ä¡ ¸Þ´º>");
-		String[] mn=new String[] {"1.º£Áö ¾Æº¸Ä«µµ - 15cm:4,100¿ø 30cm:7,600¿ø", "2.·Î½ºÆ® Ä¡Å² ¾Æº¸Ä«µµ - 15cm:6,400¿ø 30cm:11,600¿ø",
-								"3.ÅÍÅ° º£ÀÌÄÁ ¾Æº¸Ä«µµ - 15cm:6,900¿ø 30cm:12,200¿ø", "4.·ÎÆ¼¼¼¸® ¹ÙºñÅ¥ Ä¡Å² - 15cm:6,400¿ø 30cm:11,600¿ø",
-								"5.½ºÅ×ÀÌÅ©&Ä¡Áî - 15cm:6,900¿ø 30cm:12,200¿ø", "6.K-¹ÙºñÅ¥ - 15cm:6,400¿ø 30cm:11,600¿ø",
-								"7.Æúµå Æ÷Å© ¹ÙºñÅ¥ - 15cm:6,300¿ø 30cm:11,400¿ø", "8.½áºê¿þÀÌ Å¬·´ - 15cm:6,200¿ø 30cm:11,200¿ø",
-								"9.½¬¸²ÇÁ - 15cm:6,200¿ø 30cm:11,200¿ø", "10.½ºÆÄÀÌ½Ã ÀÌÅ»¸®¾È - 15cm:6,000¿ø 30cm:11,000¿ø",
-								"11.Ä¡Å² µ¥¸®¾ß³¢ - 15cm:6,000¿ø 30cm:11,000¿ø", "12.ºñ¿¤Æ¼ - 15cm:5,700¿ø 30cm:10,400¿ø",
-								"13.ÀÌÅ»¸®¾Èºñ¿¥Æ¼ - 15cm:5,700¿ø 30cm:10,400¿ø", "14.¹ÌÆ®º¼ - 15cm:5,600¿ø 30cm:10,300¿ø",
-								"15.ÅÍÅ° - 15cm:5,600¿ø 30cm:10,300¿ø", "16.ÂüÄ¡ - 15cm:4,900¿ø 30cm:9,400¿ø",
-								"17.¿¡±×¸¶¿ä - 15cm:4,600¿ø 30cm:8,500¿ø", "18.º£Áö - 15cm:4,100¿ø 30cm:7,600¿ø"};
+		//ìƒŒë“œìœ„ì¹˜ ë©”ë‰´ ì„ íƒ
+		System.out.println("<ìƒŒë“œìœ„ì¹˜ ë©”ë‰´>");
+		String[] mn=new String[] {"1.ë² ì§€ ì•„ë³´ì¹´ë„ - 15cm:4,100ì› 30cm:7,600ì›", "2.ë¡œìŠ¤íŠ¸ ì¹˜í‚¨ ì•„ë³´ì¹´ë„ - 15cm:6,400ì› 30cm:11,600ì›",
+								"3.í„°í‚¤ ë² ì´ì»¨ ì•„ë³´ì¹´ë„ - 15cm:6,900ì› 30cm:12,200ì›", "4.ë¡œí‹°ì„¸ë¦¬ ë°”ë¹„í ì¹˜í‚¨ - 15cm:6,400ì› 30cm:11,600ì›",
+								"5.ìŠ¤í…Œì´í¬&ì¹˜ì¦ˆ - 15cm:6,900ì› 30cm:12,200ì›", "6.K-ë°”ë¹„í - 15cm:6,400ì› 30cm:11,600ì›",
+								"7.í´ë“œ í¬í¬ ë°”ë¹„í - 15cm:6,300ì› 30cm:11,400ì›", "8.ì¨ë¸Œì›¨ì´ í´ëŸ½ - 15cm:6,200ì› 30cm:11,200ì›",
+								"9.ì‰¬ë¦¼í”„ - 15cm:6,200ì› 30cm:11,200ì›", "10.ìŠ¤íŒŒì´ì‹œ ì´íƒˆë¦¬ì•ˆ - 15cm:6,000ì› 30cm:11,000ì›",
+								"11.ì¹˜í‚¨ ë°ë¦¬ì•¼ë¼ - 15cm:6,000ì› 30cm:11,000ì›", "12.ë¹„ì—˜í‹° - 15cm:5,700ì› 30cm:10,400ì›",
+								"13.ì´íƒˆë¦¬ì•ˆë¹„ì— í‹° - 15cm:5,700ì› 30cm:10,400ì›", "14.ë¯¸íŠ¸ë³¼ - 15cm:5,600ì› 30cm:10,300ì›",
+								"15.í„°í‚¤ - 15cm:5,600ì› 30cm:10,300ì›", "16.ì°¸ì¹˜ - 15cm:4,900ì› 30cm:9,400ì›",
+								"17.ì—ê·¸ë§ˆìš” - 15cm:4,600ì› 30cm:8,500ì›", "18.ë² ì§€ - 15cm:4,100ì› 30cm:7,600ì›"};
 		for(int i=0;i<mn.length;i++) {
 			System.out.println(mn[i]);
 		}
@@ -22,7 +22,7 @@ public class Order {
 		System.out.println();
 		
 		for(; ;) {
-			System.out.print("¸Þ´º¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä. ");
+			System.out.print("ë©”ë‰´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”. ");
 			Scanner sc1=new Scanner(System.in);
 			int num1=sc1.nextInt();
 			
@@ -33,68 +33,68 @@ public class Order {
 				break;
 			}else {
 				System.out.println();
-				System.out.println("´Ù½Ã ¼±ÅÃÇØÁÖ¼¼¿ä.");
+				System.out.println("ë‹¤ì‹œ ì„ íƒí•´ì£¼ì„¸ìš”.");
 				System.out.println();
 				continue;
 			}
 			
 		}
 		
-		//»§ ±æÀÌ ¼±ÅÃ
-		System.out.println("»§ ±æÀÌ ¼±ÅÃÇØÁÖ¼¼¿ä.");
+		//ë¹µ ê¸¸ì´ ì„ íƒ
+		System.out.println("ë¹µ ê¸¸ì´ ì„ íƒí•´ì£¼ì„¸ìš”.");
 		System.out.println("1. 15cm");
 		System.out.println("2. 30cm");
 		
 		System.out.println();
 		
-		System.out.print("»§ ±æÀÌ ¼±ÅÃ : ");
+		System.out.print("ë¹µ ê¸¸ì´ ì„ íƒ : ");
 		Scanner sc2=new Scanner(System.in);
 		int num2=sc2.nextInt();
 		
 		System.out.println();
-		//»§ Á¾·ù ¼±ÅÃ
-		System.out.println("»§ Á¾·ù¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä");
+		//ë¹µ ì¢…ë¥˜ ì„ íƒ
+		System.out.println("ë¹µ ì¢…ë¥˜ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”");
 		
-		String[] br= {"1.È­ÀÌÆ®", "2.ÆÄ¸¶»ê ¿À·¹°¡³ë", "3.À§Æ®", "4.Çã´Ï¿ÀÆ®", "5.ÇÏÆ¼", "6.ÇÃ·§ºê·¹µå"};
+		String[] br= {"1.í™”ì´íŠ¸", "2.íŒŒë§ˆì‚° ì˜¤ë ˆê°€ë…¸", "3.ìœ„íŠ¸", "4.í—ˆë‹ˆì˜¤íŠ¸", "5.í•˜í‹°", "6.í”Œëž«ë¸Œë ˆë“œ"};
 		
 		for(int i=0;i<br.length;i++) {
 			System.out.println(br[i]);
 		}
 		
 		System.out.println();
-		System.out.print("»§ ¼±ÅÃ : ");
+		System.out.print("ë¹µ ì„ íƒ : ");
 		Scanner sc3=new Scanner(System.in);
 		int num3=sc3.nextInt();
 		
 		System.out.println();
-		//Åä½ºÆÃ ¿©ºÎ È®ÀÎ
+		//í† ìŠ¤íŒ… ì—¬ë¶€ í™•ì¸
 		Scanner sc4=new Scanner(System.in);
 		
-		System.out.print("Åä½ºÆÃ ÇÏ½Ã°Ú½À´Ï±î?(Y/N) ");
+		System.out.print("í† ìŠ¤íŒ… í•˜ì‹œê² ìŠµë‹ˆê¹Œ?(Y/N) ");
 		String str1=sc4.nextLine();
 		
 		System.out.println();
-		//Ä¡Áî ¼±ÅÃ
-		String[] ch = {"1.¾Æ¸Þ¸®Ä­Ä¡Áî", "2.½´·¹µåÄ¡Áî", "3.¸ðÂ÷·¼¶óÄ¡Áî", "4.Ä¡Áî Á¦¿Ü"};
+		//ì¹˜ì¦ˆ ì„ íƒ
+		String[] ch = {"1.ì•„ë©”ë¦¬ì¹¸ì¹˜ì¦ˆ", "2.ìŠˆë ˆë“œì¹˜ì¦ˆ", "3.ëª¨ì°¨ë ë¼ì¹˜ì¦ˆ", "4.ì¹˜ì¦ˆ ì œì™¸"};
 		
-		System.out.println("Ä¡Áî¸¦ ¼±ÅÃÇÏ¼¼¿ä.");
+		System.out.println("ì¹˜ì¦ˆë¥¼ ì„ íƒí•˜ì„¸ìš”.");
 		
 		for(int i=0;i<ch.length;i++) {
 			System.out.println(ch[i]);
 		}
 		
 		System.out.println();
-		System.out.print("Ä¡Áî ¼±ÅÃ : ");
+		System.out.print("ì¹˜ì¦ˆ ì„ íƒ : ");
 		Scanner sc5=new Scanner(System.in);
 		int num5=sc5.nextInt();
 		
 		System.out.println();
-		//¾ßÃ¤ ¼±ÅÃ
-		System.out.println("¿øÇÏ´Â ¾ßÃ¤¸¦ ¼±ÅÃÇÏ¿© ÁÖ¼¼¿ä.");
+		//ì•¼ì±„ ì„ íƒ
+		System.out.println("ì›í•˜ëŠ” ì•¼ì±„ë¥¼ ì„ íƒí•˜ì—¬ ì£¼ì„¸ìš”.");
 		
-		String[][] vt1= {{"<»ý¾ßÃ¤>"}, {"1.¾ç»óÃß", "2.Åä¸¶Åä", "3.¿ÀÀÌ", "4.ÇÇ¸Á", "5.¾çÆÄ"}};
-		String[][] vt2= {{"<ÀýÀÓ·ù>"}, {"6.ÇÇÅ¬", "7.¿Ã¸®ºê", "8.ÇÒ¶óÇÇ´¢"}};
-		String[][] vt3= {{"<¼±ÅÃ ¾ÈÇÔ>"}, {"9.¸ðµç ¾ßÃ¤ Á¦¿Ü"}};
+		String[][] vt1= {{"<ìƒì•¼ì±„>"}, {"1.ì–‘ìƒì¶”", "2.í† ë§ˆí† ", "3.ì˜¤ì´", "4.í”¼ë§", "5.ì–‘íŒŒ"}};
+		String[][] vt2= {{"<ì ˆìž„ë¥˜>"}, {"6.í”¼í´", "7.ì˜¬ë¦¬ë¸Œ", "8.í• ë¼í”¼ë‡¨"}};
+		String[][] vt3= {{"<ì„ íƒ ì•ˆí•¨>"}, {"9.ëª¨ë“  ì•¼ì±„ ì œì™¸"}};
 		
 		for(int i=0;i<vt1.length;i++) {
 			String[] inArr1=vt1[i];
@@ -122,24 +122,24 @@ public class Order {
 		System.out.println();
 		System.out.println();
 		
-		System.out.print("¾ßÃ¤ ¼±ÅÃ: ");
+		System.out.print("ì•¼ì±„ ì„ íƒ: ");
 		Scanner sc6=new Scanner(System.in);
 		int num6=sc6.nextInt();
 		
 		System.out.println();
-		//¼Ò½º, ½ÃÁî´× ¼±ÅÃ
-		System.out.println("¼Ò½º/½ÃÁî´×À» ¼±ÅÃÇÏ¿© ÁÖ¼¼¿ä.");
-		String[] sauce= {"1.¾Ë½ÎÇÑ ¸Ó½ºÅ¸µå", "2.»óÅ­ÇÑ ÀÌÅ»¸®¾Èµå·¹½Ì", "3.°úÀÏÇâ ·¹µå¿ÍÀÎ ½ÄÃÊ", "4.´ÞÄÞÇÑ ½ºÀ§Æ® ¾î´Ï¾ð",
-						"5.»õÄÞ´ÞÄÞÇÑ Çã´Ï ¸Ó½ºÅ¸µå", "6.¸ÅÄÞ´ÞÄÞÇÑ ½ºÀ§Æ® Ä¥¸®", "7.½º¸ðÅ© Çâ ½º¸ðÅ© ¹ÙºñÅ¥", "8.Å©¸®¹ÌÇÑ ·»Ä¡",
-						"9.°í¼ÒÇÑ ¸¶¿ä³×Áî", "10.È­²öÇÏ°Ô ¸Å¿î ÇÖ Ä¥¸®", "11.ÀÌ±¹ÀûÀ¸·Î ¸ÅÄÞÇÑ »ç¿ì½º ¿þ½ºÆ® Ä¡Æú·¹", "12.¾Ë½ÎÇÑ È¦½º·¡µð½¬",
-						"13.ÀÌÅÂ¸® ¿¢½ºÆ®¶ó¹öÁø ¿Ã¸®ºê ¿ÀÀÏ", "14.¼Ò±Ý", "15.ÈÄÃß", "16.¼±ÅÃ¾ÈÇÔ"};
+		//ì†ŒìŠ¤, ì‹œì¦ˆë‹ ì„ íƒ
+		System.out.println("ì†ŒìŠ¤/ì‹œì¦ˆë‹ì„ ì„ íƒí•˜ì—¬ ì£¼ì„¸ìš”.");
+		String[] sauce= {"1.ì•Œì‹¸í•œ ë¨¸ìŠ¤íƒ€ë“œ", "2.ìƒí¼í•œ ì´íƒˆë¦¬ì•ˆë“œë ˆì‹±", "3.ê³¼ì¼í–¥ ë ˆë“œì™€ì¸ ì‹ì´ˆ", "4.ë‹¬ì½¤í•œ ìŠ¤ìœ„íŠ¸ ì–´ë‹ˆì–¸",
+						"5.ìƒˆì½¤ë‹¬ì½¤í•œ í—ˆë‹ˆ ë¨¸ìŠ¤íƒ€ë“œ", "6.ë§¤ì½¤ë‹¬ì½¤í•œ ìŠ¤ìœ„íŠ¸ ì¹ ë¦¬", "7.ìŠ¤ëª¨í¬ í–¥ ìŠ¤ëª¨í¬ ë°”ë¹„í", "8.í¬ë¦¬ë¯¸í•œ ë Œì¹˜",
+						"9.ê³ ì†Œí•œ ë§ˆìš”ë„¤ì¦ˆ", "10.í™”ëˆí•˜ê²Œ ë§¤ìš´ í•« ì¹ ë¦¬", "11.ì´êµ­ì ìœ¼ë¡œ ë§¤ì½¤í•œ ì‚¬ìš°ìŠ¤ ì›¨ìŠ¤íŠ¸ ì¹˜í´ë ˆ", "12.ì•Œì‹¸í•œ í™€ìŠ¤ëž˜ë””ì‰¬",
+						"13.ì´íƒœë¦¬ ì—‘ìŠ¤íŠ¸ë¼ë²„ì§„ ì˜¬ë¦¬ë¸Œ ì˜¤ì¼", "14.ì†Œê¸ˆ", "15.í›„ì¶”", "16.ì„ íƒì•ˆí•¨"};
 		
 		for(int i=0;i<sauce.length;i++) {
 			System.out.println(sauce[i]);
 		}
 		
 		System.out.println();
-		System.out.print("¼Ò½º/½ÃÁî´× ¼±ÅÃ : ");
+		System.out.print("ì†ŒìŠ¤/ì‹œì¦ˆë‹ ì„ íƒ : ");
 		
 		Scanner sc7=new Scanner(System.in);
 		int num7=sc7.nextInt();
