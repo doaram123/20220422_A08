@@ -114,63 +114,66 @@ ALTER TABLE seattbl
     FOREIGN KEY ( membernumber )
     REFERENCES membertbl ( membernumber );
 
-insert into membertbl values(123456, 'µµ¾Æ¶÷', 19990106, 'doaram123@naver.com', 010, 12345678);
-insert into membertbl values(456789, 'ÀÌ½Â±â', 19791125, 'leeseunggy@naver.com', 010, 11111111);
-insert into membertbl values(198473, '±è¹ü¼ö', 19870324, 'kimbumsu@naver.com', 010, 22222222);
-insert into membertbl values(254841, '±è°æÈ£', 19710525, 'kimgeongho@naver.com', 010, 33333333);
-insert into membertbl values(844715, '¼º½Ã°æ', 19830428, 'sungsigeong@naver.com', 010, 44444444);
+insert into membertbl values(123456, 'ï¿½ï¿½ï¿½Æ¶ï¿½', 19990106, 'doaram123@naver.com', 010, 12345678);
+insert into membertbl values(456789, 'ï¿½Ì½Â±ï¿½', 19791125, 'leeseunggy@naver.com', 010, 11111111);
+insert into membertbl values(198473, 'ï¿½ï¿½ï¿½ï¿½ï¿½', 19870324, 'kimbumsu@naver.com', 010, 22222222);
+insert into membertbl values(254841, 'ï¿½ï¿½ï¿½È£', 19710525, 'kimgeongho@naver.com', 010, 33333333);
+insert into membertbl values(844715, 'ï¿½ï¿½ï¿½Ã°ï¿½', 19830428, 'sungsigeong@naver.com', 010, 44444444);
 
 
-select membernumber "È¸¿ø¹øÈ£", membername "ÀÌ¸§", membertbl.birthday "»ý³â¿ùÀÏ", membertbl.memberemail "ÀÌ¸ÞÀÏ", mobile1||mobile2 "ÀüÈ­¹øÈ£"
+select membernumber "È¸ï¿½ï¿½ï¿½ï¿½È£", membername "ï¿½Ì¸ï¿½", membertbl.birthday "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", membertbl.memberemail "ï¿½Ì¸ï¿½ï¿½ï¿½", mobile1||mobile2 "ï¿½ï¿½È­ï¿½ï¿½È£"
 from membertbl;
 
-insert into traintbl values('KTX', 045, '¼­¿ï¿ª', 'µ¿´ë±¸¿ª', '16:00', '17:51', 60300, 43100);
-insert into traintbl values('SRT', 324, 'ºÎ»ê¿ª', '½Å°æÁÖ¿ª', '10:15', '10:42', 10100, '');
-insert into traintbl values('¹«±ÃÈ­È£', 1207, '¼ö¿ø¿ª', '°æ»ê¿ª', '08:34', '12:11', 19300, '');
-insert into traintbl values('ITX-»õ¸¶À»', 1032, '´ëÀü¿ª', '¼­¿ï¿ª', '12:44', '14:29', 16000, '');
-insert into traintbl values('¹«±ÃÈ­È£', 1779, 'µ¿´ë±¸¿ª', 'ÅÂÈ­°­¿ª', '17:08', '18:31', 7700, '');
-insert into traintbl values('KTX', 432, '±¤ÁÖ¼ÛÁ¤¿ª', 'Á¤À¾¿ª', '19:29', '19:46', 13200, 8400);
-insert into traintbl values('KTX', 207, 'Ãµ¾È¾Æ»ê¿ª', '¹Ð¾ç¿ª', '09:45', '11:30', 46800, 33400);
-insert into traintbl values('SRT', 334, '¼­´ë±¸¿ª', '¼ö¼­¿ª', '15:44', '17:13', 36400, '');
-insert into traintbl values('¹«±ÃÈ­È£', 1362, 'ºÎ»ê¿ª', '±¸¹Ì¿ª', '21:17', '23:21', 10700, '');
-insert into traintbl values('KTX-ÀÌÀ½', 841, '¼­¿ï¿ª', 'Á¤µ¿Áø¿ª', '07:01', '09:12', 34000, 28300);
+insert into traintbl values('KTX', 045, 'ï¿½ï¿½ï¿½ï¿ª', 'ï¿½ï¿½ï¿½ë±¸ï¿½ï¿½', '16:00', '17:51', 60300, 43100);
+insert into traintbl values('SRT', 324, 'ï¿½Î»ê¿ª', 'ï¿½Å°ï¿½ï¿½Ö¿ï¿½', '10:15', '10:42', 10100, '');
+insert into traintbl values('ï¿½ï¿½ï¿½ï¿½È­È£', 1207, 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 'ï¿½ï¿½ê¿ª', '08:34', '12:11', 19300, '');
+insert into traintbl values('ITX-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 1032, 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿ª', '12:44', '14:29', 16000, '');
+insert into traintbl values('ï¿½ï¿½ï¿½ï¿½È­È£', 1779, 'ï¿½ï¿½ï¿½ë±¸ï¿½ï¿½', 'ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½', '17:08', '18:31', 7700, '');
+insert into traintbl values('KTX', 432, 'ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', '19:29', '19:46', 13200, 8400);
+insert into traintbl values('KTX', 207, 'Ãµï¿½È¾Æ»ê¿ª', 'ï¿½Ð¾ç¿ª', '09:45', '11:30', 46800, 33400);
+insert into traintbl values('SRT', 334, 'ï¿½ï¿½ï¿½ë±¸ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', '15:44', '17:13', 36400, '');
+insert into traintbl values('ï¿½ï¿½ï¿½ï¿½È­È£', 1362, 'ï¿½Î»ê¿ª', 'ï¿½ï¿½ï¿½Ì¿ï¿½', '21:17', '23:21', 10700, '');
+insert into traintbl values('KTX-ï¿½ï¿½ï¿½ï¿½', 841, 'ï¿½ï¿½ï¿½ï¿ª', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', '07:01', '09:12', 34000, 28300);
 
 select * from traintbl;
 
-select trainname "±âÂ÷ÀÌ¸§", trainnumber "±âÂ÷¹øÈ£", startstation "Ãâ¹ß¿ª", finishstation "µµÂø¿ª", starttime "Ãâ¹ß½Ã°£", finishtime "µµÂø½Ã°£", price1 "Æ¯½Ç°¡°Ý", price2 "ÀÏ¹Ý½Ç°¡°Ý"
+select trainname "ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½", trainnumber "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£", startstation "ï¿½ï¿½ß¿ï¿½", finishstation "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", starttime "ï¿½ï¿½ß½Ã°ï¿½", finishtime "ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½", price1 "Æ¯ï¿½Ç°ï¿½ï¿½ï¿½", price2 "ï¿½Ï¹Ý½Ç°ï¿½ï¿½ï¿½"
 from traintbl;
 
-insert into paytbl values(123456, '³óÇù',1234567891234254, '06/22', 1234);
-insert into paytbl values(456789, '±¹¹Î',1547895412357895, '12/25', 4567);
-insert into paytbl values(198473, '½ÅÇÑ',7151784521482354, '03/24', 5748);
-insert into paytbl values(254841, 'Ä«Ä«¿À',5474521457893551, '05/24', 8441);
-insert into paytbl values(844715, '´ë±¸',4512486217651268, '07/22', 9541);
+insert into paytbl values(123456, 'ï¿½ï¿½ï¿½ï¿½',1234567891234254, '06/22', 1234);
+insert into paytbl values(456789, 'ï¿½ï¿½ï¿½ï¿½',1547895412357895, '12/25', 4567);
+insert into paytbl values(198473, 'ï¿½ï¿½ï¿½ï¿½',7151784521482354, '03/24', 5748);
+insert into paytbl values(254841, 'Ä«Ä«ï¿½ï¿½',5474521457893551, '05/24', 8441);
+insert into paytbl values(844715, 'ï¿½ë±¸',4512486217651268, '07/22', 9541);
 
 select * from paytbl;
 
-select membernumber "È¸¿ø¹øÈ£", bankname "ÀºÇà", cardnumber "Ä«µå¹øÈ£", validity "À¯È¿±â°£", password "ºñ¹Ð¹øÈ£"
+select membernumber "È¸ï¿½ï¿½ï¿½ï¿½È£", bankname "ï¿½ï¿½ï¿½ï¿½", cardnumber "Ä«ï¿½ï¿½ï¿½È£", validity "ï¿½ï¿½È¿ï¿½â°£", password "ï¿½ï¿½Ð¹ï¿½È£"
 from paytbl;
 
-insert into reservetbl values(123456, '2022-09-22', 1, 'KTX', 045, '¼­¿ï¿ª', 'µ¿´ë±¸¿ª', '16:00', '17:51');
-insert into reservetbl values(456789, '2022-05-25', 2, 'KTX-ÀÌÀ½', 841, '¼­¿ï¿ª', 'Á¤µ¿Áø¿ª', '07:01', '09:12');
-insert into reservetbl values(198473, '2022-07-13', 1, '¹«±ÃÈ­È£', 1779, 'µ¿´ë±¸¿ª', 'ÅÂÈ­°­¿ª', '17:08', '18:31');
-insert into reservetbl values(254841, '2022-06-01', 3, 'SRT', 324, 'ºÎ»ê¿ª', '½Å°æÁÖ¿ª', '10:15', '10:42');
-insert into reservetbl values(844715, '2022-06-17', 4, 'KTX', 207, 'Ãµ¾È¾Æ»ê¿ª', '¹Ð¾ç¿ª', '09:45', '11:30');
+insert into reservetbl values(123456, '2022-09-22', 1, 'KTX', 045, 'ï¿½ï¿½ï¿½ï¿ª', 'ï¿½ï¿½ï¿½ë±¸ï¿½ï¿½', '16:00', '17:51');
+insert into reservetbl values(456789, '2022-05-25', 2, 'KTX-ï¿½ï¿½ï¿½ï¿½', 841, 'ï¿½ï¿½ï¿½ï¿ª', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', '07:01', '09:12');
+insert into reservetbl values(198473, '2022-07-13', 1, 'ï¿½ï¿½ï¿½ï¿½È­È£', 1779, 'ï¿½ï¿½ï¿½ë±¸ï¿½ï¿½', 'ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½', '17:08', '18:31');
+insert into reservetbl values(254841, '2022-06-01', 3, 'SRT', 324, 'ï¿½Î»ê¿ª', 'ï¿½Å°ï¿½ï¿½Ö¿ï¿½', '10:15', '10:42');
+insert into reservetbl values(844715, '2022-06-17', 4, 'KTX', 207, 'Ãµï¿½È¾Æ»ê¿ª', 'ï¿½Ð¾ç¿ª', '09:45', '11:30');
 
 select * from reservetbl;
 
 select * from seattbl;
 
-insert into seattbl values(045, '15C','','','','ÀÏ¹Ý½Ç',123456);
-insert into seattbl values(841, '24A','25B','','','Æ¯½Ç',456789);
-insert into seattbl values(1779, '08D','','','','ÀÏ¹Ý½Ç',198473);
-insert into seattbl values(324, '42A','43B','44C','','ÀÏ¹Ý½Ç',254841);
-insert into seattbl values(207, '30A','31B','32C','33D','Æ¯½Ç',844715);
+insert into seattbl values(045, '15C','','','','ï¿½Ï¹Ý½ï¿½',123456);
+insert into seattbl values(841, '24A','25B','','','Æ¯ï¿½ï¿½',456789);
+insert into seattbl values(1779, '08D','','','','ï¿½Ï¹Ý½ï¿½',198473);
+insert into seattbl values(324, '42A','43B','44C','','ï¿½Ï¹Ý½ï¿½',254841);
+insert into seattbl values(207, '30A','31B','32C','33D','Æ¯ï¿½ï¿½',844715);
 
-select m.membernumber as "È¸¿ø¹øÈ£", r.trainname as "±âÂ÷ÀÌ¸§", r.trainnumber as "±âÂ÷¹øÈ£", s.class as "Â÷½Ç", r.startstaion as "Ãâ¹ß¿ª",
-r.FINISHSTATION as "µµÂø¿ª", r.starttime as "Ãâ¹ß½Ã°£", r.finishtime as "µµÂø½Ã°£", r.person as "ÀÎ¿ø", s.seat1 || s.seat2 || s.seat3 || s.seat4 as "ÁÂ¼®"
+select m.membernumber as "È¸ï¿½ï¿½ï¿½ï¿½È£", r.trainname as "ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½", r.trainnumber as "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£", s.class as "ï¿½ï¿½ï¿½ï¿½", r.startstation as "ï¿½ï¿½ß¿ï¿½", r.finishstation as "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", r.starttime as "ï¿½ï¿½ß½Ã°ï¿½", r.finishtime as "ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½", r.person as "ï¿½Î¿ï¿½", s.seat1 || s.seat2 || s.seat3 || s.seat4 as "ï¿½Â¼ï¿½"
 from membertbl m
 inner join reservetbl r
     on m.membernumber=r.membernumber
 inner join seattbl s
     on r.membernumber=s.membernumber;
+    
+select * from membertbl;
+select * from traintbl;
+select * from reservetbl;
