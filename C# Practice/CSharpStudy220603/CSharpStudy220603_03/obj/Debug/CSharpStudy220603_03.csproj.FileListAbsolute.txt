@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\bin\Debug\CSharpStudy220603_03.exe.config
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\bin\Debug\CSharpStudy220603_03.exe
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\bin\Debug\CSharpStudy220603_03.pdb
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\obj\Debug\CSharpStudy220603_03.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\obj\Debug\CSharpStudy220603_03.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\obj\Debug\CSharpStudy220603_03.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\obj\Debug\CSharpStudy220603_03.exe
+C:\Users\User\source\repos\CSharpStudy220603\CSharpStudy220603_03\obj\Debug\CSharpStudy220603_03.pdb
